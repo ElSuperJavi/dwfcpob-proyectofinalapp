@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif!important;
+    font-size: 16px!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+
+
+
+
+
+
+
+section.cuerpo{
+  background: rgb(223, 235, 248);
+  padding: 50px 50px;
+}
+.icon-circle {
+  width: 50px!important;
+  height: 50px!important;
+  line-height: 50px!important;/* line-height: 50px; */
+  background: #f3f5f9;
+  margin-left: 5px;/* margin-left: 20px; */
+  text-align: center;
+  border-radius: 50%;
+}
+
+i.icon-circle {
+  cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  /* Imagen para escritorio */
+  .banner img.desktop {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Imagen para dispositivos móviles */
+  .banner img.mobile {
+    display: none;
+  }
+  
+  /* Estilos para dispositivos móviles (media query) */
+  @media (max-width: 768px) {
+    .banner img.desktop {
+        display: none;
+    }
+    .banner img.mobile {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+  }
+  /* Banner */
+
+/* Contenido del formulario */
+.formulario-contenido form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contenido form h1 {
+  font-size: 30px;
+  color: #333;
+}
+
+.formulario-contenido form h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.formulario-contenido form p {
+  font-size: 16px;
+  color: #666;
+}
+
+.formulario-contenido {
+  padding: 20px;
+}
+
+.formulario-contenido form {
+  display: contents;
+  align-items: end;
+  gap: 5px;
+  justify-content: end;
+}
+
+.formulario-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.formulario-column {
+  flex: 1; /* Ocupa el espacio disponible de manera equitativa */
+}
+
+/* Estilo del botón de autenticación */
+.formulario-button {
+  background-color: #007bff;
+}
+
+/* Estilo de los campos de entrada */
+.formulario-input {
+  margin-bottom: 15px;
+  /* Margen inferior para separar los campos */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+/* Contenido del formulario */
+
+
+/* Botones */
+.boton-espaciado {
+  /* background-color: #007bff; */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.boton-normal {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  /* width: 100%; */
+}
+.boton-centrado {
+  text-align: center;
+}
+.boton-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.boton-primary:hover {
+  background-color: #0056b3;
+  color: white;
+}
+.boton-danger {
+  background-color: #e94560;
+  color: white;
+}
+.boton-danger:hover {
+  background-color: #ba2230;
+  color: white;
+}
+
+button{
+  cursor: pointer;
+}

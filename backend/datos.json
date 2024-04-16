@@ -1,0 +1,4787 @@
+[
+{
+    "model": "api.magnitud",
+    "pk": 1,
+    "fields": {
+        "unidad": "Ninguno",
+        "simbolo": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 2,
+    "fields": {
+        "unidad": "gramos",
+        "simbolo": "g",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 3,
+    "fields": {
+        "unidad": "kilogramos",
+        "simbolo": "kg",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 4,
+    "fields": {
+        "unidad": "litros",
+        "simbolo": "lt",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 5,
+    "fields": {
+        "unidad": "centímetros",
+        "simbolo": "cm",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 6,
+    "fields": {
+        "unidad": "kilogramo por centímetro cuadrado",
+        "simbolo": "kg/cm²",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 7,
+    "fields": {
+        "unidad": "litros por descarga",
+        "simbolo": "lpd",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 8,
+    "fields": {
+        "unidad": "presión del agua",
+        "simbolo": "PSI",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 9,
+    "fields": {
+        "unidad": "pulgadas",
+        "simbolo": "\"",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.magnitud",
+    "pk": 10,
+    "fields": {
+        "unidad": "tamaño nominal de la tubería",
+        "simbolo": "\" NPS",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.caracteristica",
+    "pk": 1,
+    "fields": {
+        "atributo": "Ninguno",
+        "magnitud": 1,
+        "atributo2": "Ninguno",
+        "magnitud2": 1,
+        "atributo3": "Ninguno",
+        "magnitud3": 1,
+        "atributo4": "Ninguno",
+        "magnitud4": 1,
+        "atributo5": "Ninguno",
+        "magnitud5": 1,
+        "atributo6": "Ninguno",
+        "magnitud6": 1,
+        "atributo7": "Ninguno",
+        "magnitud7": 1,
+        "atributo8": "Ninguno",
+        "magnitud8": 1,
+        "atributo9": "Ninguno",
+        "magnitud9": 1,
+        "atributo10": "Ninguno",
+        "magnitud10": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.caracteristica",
+    "pk": 2,
+    "fields": {
+        "atributo": "Descarga",
+        "magnitud": 7,
+        "atributo2": "Largo",
+        "magnitud2": 5,
+        "atributo3": "Linea",
+        "magnitud3": 1,
+        "atributo4": "Incluye asiento",
+        "magnitud4": 1,
+        "atributo5": "Ninguno",
+        "magnitud5": 1,
+        "atributo6": "Ninguno",
+        "magnitud6": 1,
+        "atributo7": "Ninguno",
+        "magnitud7": 1,
+        "atributo8": "Ninguno",
+        "magnitud8": 1,
+        "atributo9": "Ninguno",
+        "magnitud9": 1,
+        "atributo10": "Ninguno",
+        "magnitud10": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 1,
+    "fields": {
+        "nombre": "Hogar",
+        "ceo": "hogar",
+        "imagen": "categoria/hogar.png",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 1,
+        "nivel_padre": 0,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 2,
+    "fields": {
+        "nombre": "Grifería",
+        "ceo": "grifería",
+        "imagen": "categoria/griferia.png",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 1,
+        "nivel_padre": 0,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 3,
+    "fields": {
+        "nombre": "Plomería",
+        "ceo": "plomería",
+        "imagen": "categoria/plomeria.png",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 1,
+        "nivel_padre": 0,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 4,
+    "fields": {
+        "nombre": "Pisos y recubrimientos",
+        "ceo": "pisos-y-recubrimientos",
+        "imagen": "categoria/pisos-y-recubrimientos.png",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 1,
+        "nivel_padre": 0,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 5,
+    "fields": {
+        "nombre": "Promociones",
+        "ceo": "promociones",
+        "imagen": "categoria/promociones.png",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 1,
+        "nivel_padre": 0,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 6,
+    "fields": {
+        "nombre": "Compra por Marca",
+        "ceo": "compra-por-marca",
+        "imagen": "categoria/compra-por-marca.png",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 1,
+        "nivel_padre": 0,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 7,
+    "fields": {
+        "nombre": "Baño",
+        "ceo": "baño",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 8,
+    "fields": {
+        "nombre": "Cocina",
+        "ceo": "cocina",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 9,
+    "fields": {
+        "nombre": "Cuarto de lavado",
+        "ceo": "cuarto-de-lavado",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 10,
+    "fields": {
+        "nombre": "Pisos y azulejos",
+        "ceo": "pisos-y-azulejos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 11,
+    "fields": {
+        "nombre": "Patio y jardín",
+        "ceo": "patio-y-jardín",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 12,
+    "fields": {
+        "nombre": "Mantenimiento del hogar",
+        "ceo": "mantenimiento-del-hogar",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 13,
+    "fields": {
+        "nombre": "Accesorios para baño",
+        "ceo": "accesorios-para-baño",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 14,
+    "fields": {
+        "nombre": "Monomandos",
+        "ceo": "monomandos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 15,
+    "fields": {
+        "nombre": "Mezcladoras",
+        "ceo": "mezcladoras",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 16,
+    "fields": {
+        "nombre": "Salida para tina",
+        "ceo": "salida-para-tina",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 17,
+    "fields": {
+        "nombre": "Regaderas",
+        "ceo": "regaderas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 18,
+    "fields": {
+        "nombre": "Fluxómetros",
+        "ceo": "fluxómetros",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 19,
+    "fields": {
+        "nombre": "Productos para Gas",
+        "ceo": "productos-para-gas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 20,
+    "fields": {
+        "nombre": "Productos para agua",
+        "ceo": "productos-para-agua",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 21,
+    "fields": {
+        "nombre": "Bombas y equipos",
+        "ceo": "bombas-y-equipos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 22,
+    "fields": {
+        "nombre": "Tinacos y Tanques",
+        "ceo": "tinacos-y-tanques",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 23,
+    "fields": {
+        "nombre": "Accesorios para tubería",
+        "ceo": "accesorios-para-tubería",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 24,
+    "fields": {
+        "nombre": "Piso interior",
+        "ceo": "piso-interior",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 25,
+    "fields": {
+        "nombre": "Piso exterior",
+        "ceo": "piso-exterior",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 26,
+    "fields": {
+        "nombre": "Mallas y decorativos",
+        "ceo": "mallas-y-decorativos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 27,
+    "fields": {
+        "nombre": "Pegamentos y otros materiales",
+        "ceo": "pegamentos-y-otros-materiales",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 2,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 28,
+    "fields": {
+        "nombre": "WC/Sanitarios",
+        "ceo": "wc-sanitarios",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 2
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 29,
+    "fields": {
+        "nombre": "Llaves",
+        "ceo": "llaves",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 30,
+    "fields": {
+        "nombre": "Regadera",
+        "ceo": "regadera",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 31,
+    "fields": {
+        "nombre": "Accesorios",
+        "ceo": "accesorios",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 32,
+    "fields": {
+        "nombre": "Asientos",
+        "ceo": "asientos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 33,
+    "fields": {
+        "nombre": "Lavabos",
+        "ceo": "lavabos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 34,
+    "fields": {
+        "nombre": "Tinas",
+        "ceo": "tinas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 35,
+    "fields": {
+        "nombre": "Muebles para baño",
+        "ceo": "muebles-para-baño",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 36,
+    "fields": {
+        "nombre": "Espejos",
+        "ceo": "espejos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 1,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 37,
+    "fields": {
+        "nombre": "Llaves de cocina (monomandos/mezcladoras)",
+        "ceo": "llaves-de-cocina-(monomandos-mezcladoras)",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 38,
+    "fields": {
+        "nombre": "Tarjas",
+        "ceo": "tarjas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 39,
+    "fields": {
+        "nombre": "Parrilla y campanas",
+        "ceo": "parrilla-y-campanas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 40,
+    "fields": {
+        "nombre": "Acabados",
+        "ceo": "acabados",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 41,
+    "fields": {
+        "nombre": "Paquetes Tekaway",
+        "ceo": "paquetes-tekaway",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 42,
+    "fields": {
+        "nombre": "Purificadores",
+        "ceo": "purificadores",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 43,
+    "fields": {
+        "nombre": "Trituradores",
+        "ceo": "trituradores",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 44,
+    "fields": {
+        "nombre": "Contracanastas",
+        "ceo": "contracanastas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 45,
+    "fields": {
+        "nombre": "Dispensador de jabón",
+        "ceo": "dispensador-de-jabón",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 2,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 46,
+    "fields": {
+        "nombre": "Calentadores",
+        "ceo": "calentadores",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 47,
+    "fields": {
+        "nombre": "Refacciones de Calentadores",
+        "ceo": "refacciones-de-calentadores",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 48,
+    "fields": {
+        "nombre": "Lavaderos",
+        "ceo": "lavaderos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 49,
+    "fields": {
+        "nombre": "Llaves para gas",
+        "ceo": "llaves-para-gas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 50,
+    "fields": {
+        "nombre": "Llaves para agua",
+        "ceo": "llaves-para-agua",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 3,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 51,
+    "fields": {
+        "nombre": "Pisos para exterior",
+        "ceo": "pisos-para-exterior",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 52,
+    "fields": {
+        "nombre": "Pisos para interior",
+        "ceo": "pisos-para-interior",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 53,
+    "fields": {
+        "nombre": "Recubrimientos",
+        "ceo": "recubrimientos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 54,
+    "fields": {
+        "nombre": "Pisos rectificados",
+        "ceo": "pisos-rectificados",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 55,
+    "fields": {
+        "nombre": "Adhesivo y materiales para piso",
+        "ceo": "adhesivo-y-materiales-para-piso",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 4,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 56,
+    "fields": {
+        "nombre": "Albercas",
+        "ceo": "albercas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 5,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 57,
+    "fields": {
+        "nombre": "Tinas de hidromasajes",
+        "ceo": "tinas-de-hidromasajes",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 5,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 58,
+    "fields": {
+        "nombre": "Complementos",
+        "ceo": "complementos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 5,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 59,
+    "fields": {
+        "nombre": "Servicios de instalación",
+        "ceo": "servicios-de-instalación",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 6,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 60,
+    "fields": {
+        "nombre": "Adhesivos",
+        "ceo": "adhesivos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 6,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 61,
+    "fields": {
+        "nombre": "Impermeabilizantes",
+        "ceo": "impermeabilizantes",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 6,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 62,
+    "fields": {
+        "nombre": "Ventilación",
+        "ceo": "ventilación",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 6,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 63,
+    "fields": {
+        "nombre": "Minisplit",
+        "ceo": "minisplit",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 6,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 64,
+    "fields": {
+        "nombre": "Ventiladores de techo",
+        "ceo": "ventiladores-de-techo",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 6,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 65,
+    "fields": {
+        "nombre": "Para baño",
+        "ceo": "para-baño",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 8,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 66,
+    "fields": {
+        "nombre": "Para cocina",
+        "ceo": "para-cocina",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 8,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 67,
+    "fields": {
+        "nombre": "Automáticos",
+        "ceo": "automáticos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 8,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 68,
+    "fields": {
+        "nombre": "Para baño",
+        "ceo": "para-baño",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 9,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 69,
+    "fields": {
+        "nombre": "Para cocina",
+        "ceo": "para-cocina",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 9,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 70,
+    "fields": {
+        "nombre": "Mezcladora 4”",
+        "ceo": "mezcladora-4”",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 9,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 71,
+    "fields": {
+        "nombre": "Mezcladora 8”",
+        "ceo": "mezcladora-8”",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 9,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 72,
+    "fields": {
+        "nombre": "Regadera de teléfono",
+        "ceo": "regadera-de-teléfono",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 11,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 73,
+    "fields": {
+        "nombre": "Brazo para regadera",
+        "ceo": "brazo-para-regadera",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 11,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 74,
+    "fields": {
+        "nombre": "Plato ancho",
+        "ceo": "plato-ancho",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 11,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 75,
+    "fields": {
+        "nombre": "Gas usos generales",
+        "ceo": "gas-usos-generales",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 13,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 76,
+    "fields": {
+        "nombre": "Pig tail",
+        "ceo": "pig-tail",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 13,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 77,
+    "fields": {
+        "nombre": "Paquetes para instalación",
+        "ceo": "paquetes-para-instalación",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 13,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 78,
+    "fields": {
+        "nombre": "Llaves de control para Gas",
+        "ceo": "llaves-de control-para-gas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 13,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 79,
+    "fields": {
+        "nombre": "Conexiones",
+        "ceo": "conexiones",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 13,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 80,
+    "fields": {
+        "nombre": "Uso comercial",
+        "ceo": "uso-comercial",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 13,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 81,
+    "fields": {
+        "nombre": "Válvulas",
+        "ceo": "válvulas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 13,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 82,
+    "fields": {
+        "nombre": "Lavabo/Fregadero",
+        "ceo": "lavabo-fregadero",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 83,
+    "fields": {
+        "nombre": "Sanitarios",
+        "ceo": "sanitarios",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 84,
+    "fields": {
+        "nombre": "Llaves de control",
+        "ceo": "llaves-de-control",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 85,
+    "fields": {
+        "nombre": "Lavadora",
+        "ceo": "lavadora",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 86,
+    "fields": {
+        "nombre": "Mezcladoras",
+        "ceo": "mezcladoras",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 87,
+    "fields": {
+        "nombre": "Monomandos",
+        "ceo": "monomandos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 88,
+    "fields": {
+        "nombre": "Paquetes para",
+        "ceo": "paquetes-para",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 89,
+    "fields": {
+        "nombre": "Manguera de desagüe",
+        "ceo": "manguera-de-desagüe",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 90,
+    "fields": {
+        "nombre": "Calentadores",
+        "ceo": "calentadores",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 91,
+    "fields": {
+        "nombre": "Sanitarios",
+        "ceo": "sanitarios",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 14,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 92,
+    "fields": {
+        "nombre": "Bombas",
+        "ceo": "bombas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 15,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 93,
+    "fields": {
+        "nombre": "Electrobombas",
+        "ceo": "electrobombas",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 15,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 94,
+    "fields": {
+        "nombre": "Equipo hidroneumático",
+        "ceo": "equipo-hidroneumático",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 15,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 95,
+    "fields": {
+        "nombre": "Presurizadora",
+        "ceo": "presurizadora",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 15,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 96,
+    "fields": {
+        "nombre": "Tinacos",
+        "ceo": "tinacos",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 16,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 97,
+    "fields": {
+        "nombre": "Tanque",
+        "ceo": "tanque",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 16,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 98,
+    "fields": {
+        "nombre": "Cisterna",
+        "ceo": "cisterna",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 16,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.categoria",
+    "pk": 99,
+    "fields": {
+        "nombre": "Tolva",
+        "ceo": "tolva",
+        "imagen": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "nivel": 3,
+        "nivel_padre": 16,
+        "caracteristica": 1
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ambiance",
+        "ceo": "ambiance",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 2,
+    "fields": {
+        "nombre": "American Standard",
+        "ceo": "american-standard",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 3,
+    "fields": {
+        "nombre": "Bosch",
+        "ceo": "bosch",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 4,
+    "fields": {
+        "nombre": "Calorex",
+        "ceo": "calorex",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 5,
+    "fields": {
+        "nombre": "Cinsa",
+        "ceo": "cinsa",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 6,
+    "fields": {
+        "nombre": "Coflex",
+        "ceo": "coflex",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 7,
+    "fields": {
+        "nombre": "Corona",
+        "ceo": "corona",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 8,
+    "fields": {
+        "nombre": "Daltile",
+        "ceo": "daltile",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 9,
+    "fields": {
+        "nombre": "Dica",
+        "ceo": "dica",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 10,
+    "fields": {
+        "nombre": "EB Técnica",
+        "ceo": "eb-técnica",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 11,
+    "fields": {
+        "nombre": "Fluidmaster",
+        "ceo": "fluidmaster",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 12,
+    "fields": {
+        "nombre": "Gante",
+        "ceo": "gante",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 13,
+    "fields": {
+        "nombre": "Helvex",
+        "ceo": "helvex",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 14,
+    "fields": {
+        "nombre": "Hunter",
+        "ceo": "hunter",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 15,
+    "fields": {
+        "nombre": "Intex",
+        "ceo": "intex",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 16,
+    "fields": {
+        "nombre": "Los Ovalines",
+        "ceo": "los-ovalines",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 17,
+    "fields": {
+        "nombre": "Mabe",
+        "ceo": "mabe",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 18,
+    "fields": {
+        "nombre": "Moen",
+        "ceo": "moen",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 19,
+    "fields": {
+        "nombre": "Niasa",
+        "ceo": "niasa",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 20,
+    "fields": {
+        "nombre": "Pedrollo",
+        "ceo": "pedrollo",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 21,
+    "fields": {
+        "nombre": "Plados",
+        "ceo": "plados",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 22,
+    "fields": {
+        "nombre": "Porcelanite",
+        "ceo": "porcelanite",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 23,
+    "fields": {
+        "nombre": "Proyecta",
+        "ceo": "proyecta",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 24,
+    "fields": {
+        "nombre": "Rheem",
+        "ceo": "rheem",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 25,
+    "fields": {
+        "nombre": "Rotoplas",
+        "ceo": "rotoplas",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 26,
+    "fields": {
+        "nombre": "Teka",
+        "ceo": "teka",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 27,
+    "fields": {
+        "nombre": "Tendenzza",
+        "ceo": "tendenzza",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 28,
+    "fields": {
+        "nombre": "Tiber",
+        "ceo": "tiber",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 29,
+    "fields": {
+        "nombre": "Urrea",
+        "ceo": "urrea",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marca",
+    "pk": 30,
+    "fields": {
+        "nombre": "White-Westinghouse",
+        "ceo": "white-westinghouse",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ambiance",
+        "ceo": "ambiance",
+        "imagen": "marca/banner/ambiance-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 2,
+    "fields": {
+        "nombre": "Ambiance 2",
+        "ceo": "ambiance-2",
+        "imagen": "marca/banner/ambiance-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 3,
+    "fields": {
+        "nombre": "American Standard",
+        "ceo": "american-standard",
+        "imagen": "marca/banner/american-standard-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 4,
+    "fields": {
+        "nombre": "American Standard 2",
+        "ceo": "american-standard-2",
+        "imagen": "marca/banner/american-standard-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 5,
+    "fields": {
+        "nombre": "Bosch",
+        "ceo": "bosch",
+        "imagen": "marca/banner/bosch-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 6,
+    "fields": {
+        "nombre": "Bosch 2",
+        "ceo": "bosch-2",
+        "imagen": "marca/banner/bosch-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 7,
+    "fields": {
+        "nombre": "Calorex",
+        "ceo": "calorex",
+        "imagen": "marca/banner/calorex-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 8,
+    "fields": {
+        "nombre": "Calorex 2",
+        "ceo": "calorex-2",
+        "imagen": "marca/banner/calorex-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 9,
+    "fields": {
+        "nombre": "Cinsa",
+        "ceo": "cinsa",
+        "imagen": "marca/banner/cinsa-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 10,
+    "fields": {
+        "nombre": "Cinsa 2",
+        "ceo": "cinsa-2",
+        "imagen": "marca/banner/cinsa-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 11,
+    "fields": {
+        "nombre": "Coflex",
+        "ceo": "coflex",
+        "imagen": "marca/banner/coflex-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 12,
+    "fields": {
+        "nombre": "Coflex 2",
+        "ceo": "coflex-2",
+        "imagen": "marca/banner/coflex-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 13,
+    "fields": {
+        "nombre": "Corona",
+        "ceo": "corona",
+        "imagen": "marca/banner/corona-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 14,
+    "fields": {
+        "nombre": "Corona 2",
+        "ceo": "corona-2",
+        "imagen": "marca/banner/corona-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 15,
+    "fields": {
+        "nombre": "Daltile",
+        "ceo": "daltile",
+        "imagen": "marca/banner/daltile-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 16,
+    "fields": {
+        "nombre": "Daltile 2",
+        "ceo": "daltile-2",
+        "imagen": "marca/banner/daltile-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 17,
+    "fields": {
+        "nombre": "Dica",
+        "ceo": "dica",
+        "imagen": "marca/banner/dica-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 18,
+    "fields": {
+        "nombre": "Dica 2",
+        "ceo": "dica-2",
+        "imagen": "marca/banner/dica-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 19,
+    "fields": {
+        "nombre": "EB Técnica",
+        "ceo": "eb-técnica",
+        "imagen": "marca/banner/eb-técnica-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 20,
+    "fields": {
+        "nombre": "EB Técnica 2",
+        "ceo": "eb-técnica-2",
+        "imagen": "marca/banner/eb-técnica-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 21,
+    "fields": {
+        "nombre": "Fluidmaster",
+        "ceo": "fluidmaster",
+        "imagen": "marca/banner/fluidmaster-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 11
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 22,
+    "fields": {
+        "nombre": "Fluidmaster 2",
+        "ceo": "fluidmaster-2",
+        "imagen": "marca/banner/fluidmaster-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 11
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 23,
+    "fields": {
+        "nombre": "Gante",
+        "ceo": "gante",
+        "imagen": "marca/banner/gante-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 12
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 24,
+    "fields": {
+        "nombre": "Gante 2",
+        "ceo": "gante-2",
+        "imagen": "marca/banner/gante-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 12
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 25,
+    "fields": {
+        "nombre": "Helvex",
+        "ceo": "helvex",
+        "imagen": "marca/banner/helvex-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 13
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 26,
+    "fields": {
+        "nombre": "Helvex 2",
+        "ceo": "helvex-2",
+        "imagen": "marca/banner/helvex-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 13
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 27,
+    "fields": {
+        "nombre": "Hunter",
+        "ceo": "hunter",
+        "imagen": "marca/banner/hunter-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 14
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 28,
+    "fields": {
+        "nombre": "Hunter 2",
+        "ceo": "hunter-2",
+        "imagen": "marca/banner/hunter-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 14
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 29,
+    "fields": {
+        "nombre": "Intex",
+        "ceo": "intex",
+        "imagen": "marca/banner/intex-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 15
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 30,
+    "fields": {
+        "nombre": "Intex 2",
+        "ceo": "intex-2",
+        "imagen": "marca/banner/intex-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 15
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 31,
+    "fields": {
+        "nombre": "Los Ovalines",
+        "ceo": "los-ovalines",
+        "imagen": "marca/banner/los-ovalines-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 16
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 32,
+    "fields": {
+        "nombre": "Los Ovalines 2",
+        "ceo": "los-ovalines-2",
+        "imagen": "marca/banner/los-ovalines-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 16
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 33,
+    "fields": {
+        "nombre": "Mabe",
+        "ceo": "mabe",
+        "imagen": "marca/banner/mabe-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 17
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 34,
+    "fields": {
+        "nombre": "Mabe 2",
+        "ceo": "mabe-2",
+        "imagen": "marca/banner/mabe-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 17
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 35,
+    "fields": {
+        "nombre": "Moen",
+        "ceo": "moen",
+        "imagen": "marca/banner/moen-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 18
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 36,
+    "fields": {
+        "nombre": "Moen 2",
+        "ceo": "moen-2",
+        "imagen": "marca/banner/moen-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 18
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 37,
+    "fields": {
+        "nombre": "Niasa",
+        "ceo": "niasa",
+        "imagen": "marca/banner/niasa-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 19
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 38,
+    "fields": {
+        "nombre": "Niasa 2",
+        "ceo": "niasa-2",
+        "imagen": "marca/banner/niasa-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 19
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 39,
+    "fields": {
+        "nombre": "Pedrollo",
+        "ceo": "pedrollo",
+        "imagen": "marca/banner/pedrollo-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 20
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 40,
+    "fields": {
+        "nombre": "Pedrollo 2",
+        "ceo": "pedrollo-2",
+        "imagen": "marca/banner/pedrollo-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 20
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 41,
+    "fields": {
+        "nombre": "Plados",
+        "ceo": "plados",
+        "imagen": "marca/banner/plados-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 21
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 42,
+    "fields": {
+        "nombre": "Plados 2",
+        "ceo": "plados-2",
+        "imagen": "marca/banner/plados-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 21
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 43,
+    "fields": {
+        "nombre": "Porcelanite",
+        "ceo": "porcelanite",
+        "imagen": "marca/banner/porcelanite-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 22
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 44,
+    "fields": {
+        "nombre": "Porcelanite 2",
+        "ceo": "porcelanite-2",
+        "imagen": "marca/banner/porcelanite-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 22
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 45,
+    "fields": {
+        "nombre": "Proyecta",
+        "ceo": "proyecta",
+        "imagen": "marca/banner/proyecta-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 23
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 46,
+    "fields": {
+        "nombre": "Proyecta 2",
+        "ceo": "proyecta-2",
+        "imagen": "marca/banner/proyecta-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 23
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 47,
+    "fields": {
+        "nombre": "Rheem",
+        "ceo": "rheem",
+        "imagen": "marca/banner/rheem-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 24
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 48,
+    "fields": {
+        "nombre": "Rheem 2",
+        "ceo": "rheem-2",
+        "imagen": "marca/banner/rheem-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 24
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 49,
+    "fields": {
+        "nombre": "Rotoplas",
+        "ceo": "rotoplas",
+        "imagen": "marca/banner/rotoplas-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 25
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 50,
+    "fields": {
+        "nombre": "Rotoplas 2",
+        "ceo": "rotoplas-2",
+        "imagen": "marca/banner/rotoplas-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 25
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 51,
+    "fields": {
+        "nombre": "Teka",
+        "ceo": "teka",
+        "imagen": "marca/banner/teka-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 26
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 52,
+    "fields": {
+        "nombre": "Teka 2",
+        "ceo": "teka-2",
+        "imagen": "marca/banner/teka-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 26
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 53,
+    "fields": {
+        "nombre": "Tendenzza",
+        "ceo": "tendenzza",
+        "imagen": "marca/banner/tendenzza-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 27
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 54,
+    "fields": {
+        "nombre": "Tendenzza 2",
+        "ceo": "tendenzza-2",
+        "imagen": "marca/banner/tendenzza-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 27
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 55,
+    "fields": {
+        "nombre": "Tiber",
+        "ceo": "tiber",
+        "imagen": "marca/banner/tiber-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 28
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 56,
+    "fields": {
+        "nombre": "Tiber 2",
+        "ceo": "tiber-2",
+        "imagen": "marca/banner/tiber-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 28
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 57,
+    "fields": {
+        "nombre": "Urrea",
+        "ceo": "urrea",
+        "imagen": "marca/banner/urrea-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 29
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 58,
+    "fields": {
+        "nombre": "Urrea 2",
+        "ceo": "urrea-2",
+        "imagen": "marca/banner/urrea-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 29
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 59,
+    "fields": {
+        "nombre": "White-Westinghouse",
+        "ceo": "white-westinghouse",
+        "imagen": "marca/banner/white-westinghouse-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 30
+    }
+},
+{
+    "model": "api.marcaimagen",
+    "pk": 60,
+    "fields": {
+        "nombre": "White-Westinghouse 2",
+        "ceo": "white-westinghouse-2",
+        "imagen": "marca/banner/white-westinghouse-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 30
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 1,
+    "fields": {
+        "nombre": "Sanitarios",
+        "ceo": "ambiance",
+        "imagen": "marca/categoria/ambiance-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1,
+        "categoria": 91
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 2,
+    "fields": {
+        "nombre": "Sanitarios One Piece",
+        "ceo": "sanitarios-one-piece",
+        "imagen": "marca/categoria/ambiance-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1,
+        "categoria": 83
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 3,
+    "fields": {
+        "nombre": "Lavabos",
+        "ceo": "lavabos",
+        "imagen": "marca/categoria/ambiance-3.png",
+        "orden": 3,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1,
+        "categoria": 33
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 4,
+    "fields": {
+        "nombre": "Sanitarios dos piezas",
+        "ceo": "sanitarios-dos-piezas",
+        "imagen": "marca/categoria/ambiance-4.png",
+        "orden": 4,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1,
+        "categoria": 83
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 5,
+    "fields": {
+        "nombre": "Sanitarios Inteligentes",
+        "ceo": "sanitarios-inteligentes",
+        "imagen": "marca/categoria/ambiance-5.png",
+        "orden": 5,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1,
+        "categoria": 83
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 6,
+    "fields": {
+        "nombre": "Sanitarios",
+        "ceo": "sanitarios",
+        "imagen": "marca/categoria/american-standard-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2,
+        "categoria": 83
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 7,
+    "fields": {
+        "nombre": "Mingitorios",
+        "ceo": "mingitorios",
+        "imagen": "marca/categoria/american-standard-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2,
+        "categoria": 83
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 8,
+    "fields": {
+        "nombre": "Mezcladoras",
+        "ceo": "mezcladoras",
+        "imagen": "marca/categoria/american-standard-3.png",
+        "orden": 3,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2,
+        "categoria": 86
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 9,
+    "fields": {
+        "nombre": "Lavabos",
+        "ceo": "lavabos",
+        "imagen": "marca/categoria/american-standard-4.png",
+        "orden": 4,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2,
+        "categoria": 33
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 10,
+    "fields": {
+        "nombre": "Monomandos",
+        "ceo": "monomandos",
+        "imagen": "marca/categoria/american-standard-5.png",
+        "orden": 5,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2,
+        "categoria": 87
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 11,
+    "fields": {
+        "nombre": "Tarjas",
+        "ceo": "tarjas",
+        "imagen": "marca/categoria/american-standard-6.png",
+        "orden": 6,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2,
+        "categoria": 38
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 12,
+    "fields": {
+        "nombre": "Calentadores gas LP",
+        "ceo": "calentadores-gas-lp",
+        "imagen": "marca/categoria/bosch-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3,
+        "categoria": 47
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 13,
+    "fields": {
+        "nombre": "Calentadores eléctricos",
+        "ceo": "calentadores-eléctricos",
+        "imagen": "marca/categoria/bosch-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3,
+        "categoria": 46
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 14,
+    "fields": {
+        "nombre": "Calentadores de depósito",
+        "ceo": "calentadores-de-depósito",
+        "imagen": "marca/categoria/calorex-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4,
+        "categoria": 90
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 15,
+    "fields": {
+        "nombre": "Calentadores de paso",
+        "ceo": "calentadores-de-paso",
+        "imagen": "marca/categoria/calorex-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4,
+        "categoria": 47
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 16,
+    "fields": {
+        "nombre": "Calentadores eléctricos",
+        "ceo": "calentadores-eléctricos",
+        "imagen": "marca/categoria/calorex-3.png",
+        "orden": 3,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4,
+        "categoria": 46
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 17,
+    "fields": {
+        "nombre": "Calentadores de depósito",
+        "ceo": "calentadores-de-depósito",
+        "imagen": "marca/categoria/cinsa-1.png",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5,
+        "categoria": 90
+    }
+},
+{
+    "model": "api.marcacategoriaimagen",
+    "pk": 18,
+    "fields": {
+        "nombre": "Calentadores de paso",
+        "ceo": "calentadores-de-paso",
+        "imagen": "marca/categoria/cinsa-2.png",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5,
+        "categoria": 47
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ninguno",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 2,
+    "fields": {
+        "nombre": "58455022",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 29
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 3,
+    "fields": {
+        "nombre": "200401001",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 4,
+    "fields": {
+        "nombre": "8529021",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 5,
+    "fields": {
+        "nombre": "modelo1-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 6,
+    "fields": {
+        "nombre": "modelo1-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 7,
+    "fields": {
+        "nombre": "modelo1-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 8,
+    "fields": {
+        "nombre": "modelo1-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 9,
+    "fields": {
+        "nombre": "modelo1-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 10,
+    "fields": {
+        "nombre": "modelo1-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 1
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 11,
+    "fields": {
+        "nombre": "modelo2-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 12,
+    "fields": {
+        "nombre": "modelo2-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 13,
+    "fields": {
+        "nombre": "modelo2-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 14,
+    "fields": {
+        "nombre": "modelo2-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 15,
+    "fields": {
+        "nombre": "modelo2-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 16,
+    "fields": {
+        "nombre": "modelo2-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 17,
+    "fields": {
+        "nombre": "modelo2-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 18,
+    "fields": {
+        "nombre": "modelo2-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 19,
+    "fields": {
+        "nombre": "modelo2-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 20,
+    "fields": {
+        "nombre": "modelo2-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 2
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 21,
+    "fields": {
+        "nombre": "modelo3-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 22,
+    "fields": {
+        "nombre": "modelo3-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 23,
+    "fields": {
+        "nombre": "modelo3-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 24,
+    "fields": {
+        "nombre": "modelo3-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 25,
+    "fields": {
+        "nombre": "modelo3-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 26,
+    "fields": {
+        "nombre": "modelo3-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 27,
+    "fields": {
+        "nombre": "modelo3-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 28,
+    "fields": {
+        "nombre": "modelo3-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 29,
+    "fields": {
+        "nombre": "modelo3-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 30,
+    "fields": {
+        "nombre": "modelo3-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 3
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 31,
+    "fields": {
+        "nombre": "modelo4-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 32,
+    "fields": {
+        "nombre": "modelo4-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 33,
+    "fields": {
+        "nombre": "modelo4-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 34,
+    "fields": {
+        "nombre": "modelo4-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 35,
+    "fields": {
+        "nombre": "modelo4-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 36,
+    "fields": {
+        "nombre": "modelo4-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 37,
+    "fields": {
+        "nombre": "modelo4-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 38,
+    "fields": {
+        "nombre": "modelo4-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 39,
+    "fields": {
+        "nombre": "modelo4-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 40,
+    "fields": {
+        "nombre": "modelo4-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 4
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 41,
+    "fields": {
+        "nombre": "modelo5-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 42,
+    "fields": {
+        "nombre": "modelo5-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 43,
+    "fields": {
+        "nombre": "modelo5-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 44,
+    "fields": {
+        "nombre": "modelo5-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 45,
+    "fields": {
+        "nombre": "modelo5-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 46,
+    "fields": {
+        "nombre": "modelo5-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 47,
+    "fields": {
+        "nombre": "modelo5-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 48,
+    "fields": {
+        "nombre": "modelo5-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 49,
+    "fields": {
+        "nombre": "modelo5-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 50,
+    "fields": {
+        "nombre": "modelo5-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 5
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 51,
+    "fields": {
+        "nombre": "modelo6-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 52,
+    "fields": {
+        "nombre": "modelo6-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 53,
+    "fields": {
+        "nombre": "modelo6-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 54,
+    "fields": {
+        "nombre": "modelo6-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 55,
+    "fields": {
+        "nombre": "modelo6-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 56,
+    "fields": {
+        "nombre": "modelo6-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 57,
+    "fields": {
+        "nombre": "modelo6-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 58,
+    "fields": {
+        "nombre": "modelo6-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 59,
+    "fields": {
+        "nombre": "modelo6-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 60,
+    "fields": {
+        "nombre": "modelo6-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 6
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 61,
+    "fields": {
+        "nombre": "modelo7-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 62,
+    "fields": {
+        "nombre": "modelo7-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 63,
+    "fields": {
+        "nombre": "modelo7-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 64,
+    "fields": {
+        "nombre": "modelo7-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 65,
+    "fields": {
+        "nombre": "modelo7-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 66,
+    "fields": {
+        "nombre": "modelo7-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 67,
+    "fields": {
+        "nombre": "modelo7-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 68,
+    "fields": {
+        "nombre": "modelo7-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 69,
+    "fields": {
+        "nombre": "modelo7-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 70,
+    "fields": {
+        "nombre": "modelo7-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 7
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 71,
+    "fields": {
+        "nombre": "modelo8-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 72,
+    "fields": {
+        "nombre": "modelo8-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 73,
+    "fields": {
+        "nombre": "modelo8-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 74,
+    "fields": {
+        "nombre": "modelo8-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 75,
+    "fields": {
+        "nombre": "modelo8-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 76,
+    "fields": {
+        "nombre": "modelo8-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 77,
+    "fields": {
+        "nombre": "modelo8-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 78,
+    "fields": {
+        "nombre": "modelo8-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 79,
+    "fields": {
+        "nombre": "modelo8-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 80,
+    "fields": {
+        "nombre": "modelo8-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 8
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 81,
+    "fields": {
+        "nombre": "modelo9-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 82,
+    "fields": {
+        "nombre": "modelo9-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 83,
+    "fields": {
+        "nombre": "modelo9-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 84,
+    "fields": {
+        "nombre": "modelo9-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 85,
+    "fields": {
+        "nombre": "modelo9-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 86,
+    "fields": {
+        "nombre": "modelo9-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 87,
+    "fields": {
+        "nombre": "modelo9-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 88,
+    "fields": {
+        "nombre": "modelo9-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 89,
+    "fields": {
+        "nombre": "modelo9-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 90,
+    "fields": {
+        "nombre": "modelo9-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 9
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 91,
+    "fields": {
+        "nombre": "modelo10-1",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 92,
+    "fields": {
+        "nombre": "modelo10-2",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 93,
+    "fields": {
+        "nombre": "modelo10-3",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 94,
+    "fields": {
+        "nombre": "modelo10-4",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 95,
+    "fields": {
+        "nombre": "modelo10-5",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 96,
+    "fields": {
+        "nombre": "modelo10-6",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 97,
+    "fields": {
+        "nombre": "modelo10-7",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 98,
+    "fields": {
+        "nombre": "modelo10-8",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 99,
+    "fields": {
+        "nombre": "modelo10-9",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.modelo",
+    "pk": 100,
+    "fields": {
+        "nombre": "modelo10-10",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "marca": 10
+    }
+},
+{
+    "model": "api.material",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ninguno",
+        "ceo": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.material",
+    "pk": 2,
+    "fields": {
+        "nombre": "Cerámica esmaltada",
+        "ceo": "cerámica-esmaltada",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.material",
+    "pk": 3,
+    "fields": {
+        "nombre": "Porcelana vítrea",
+        "ceo": "porcelana-vítrea",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.material",
+    "pk": 4,
+    "fields": {
+        "nombre": "Porcelana sanitaria",
+        "ceo": "porcelana-sanitaria",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ninguno",
+        "ceo": "sin-color",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 2,
+    "fields": {
+        "nombre": "Negro",
+        "ceo": "negro",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 3,
+    "fields": {
+        "nombre": "Azul",
+        "ceo": "azul",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 4,
+    "fields": {
+        "nombre": "Marrón",
+        "ceo": "marrón",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 5,
+    "fields": {
+        "nombre": "Gris",
+        "ceo": "gris",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 6,
+    "fields": {
+        "nombre": "Verde",
+        "ceo": "verde",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 7,
+    "fields": {
+        "nombre": "Naranja",
+        "ceo": "naranja",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 8,
+    "fields": {
+        "nombre": "Rosa",
+        "ceo": "rosa",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 9,
+    "fields": {
+        "nombre": "Púrpura",
+        "ceo": "púrpura",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 10,
+    "fields": {
+        "nombre": "Rojo",
+        "ceo": "rojo",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 11,
+    "fields": {
+        "nombre": "Blanco",
+        "ceo": "blanco ",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 12,
+    "fields": {
+        "nombre": "Amarillo",
+        "ceo": "amarillo",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 13,
+    "fields": {
+        "nombre": "Turquesa",
+        "ceo": "turquesa",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 14,
+    "fields": {
+        "nombre": "Verde oliva",
+        "ceo": "verde-oliva",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 15,
+    "fields": {
+        "nombre": "Verde menta",
+        "ceo": "verde-menta",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 16,
+    "fields": {
+        "nombre": "Borgoña",
+        "ceo": "borgoña",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 17,
+    "fields": {
+        "nombre": "Lavanda",
+        "ceo": "lavanda",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 18,
+    "fields": {
+        "nombre": "Magenta",
+        "ceo": "magenta",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 19,
+    "fields": {
+        "nombre": "Salmón",
+        "ceo": "salmón",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 20,
+    "fields": {
+        "nombre": "Cian",
+        "ceo": "cian",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 21,
+    "fields": {
+        "nombre": "Beige",
+        "ceo": "beige",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 22,
+    "fields": {
+        "nombre": "Rosado",
+        "ceo": "rosado",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 23,
+    "fields": {
+        "nombre": "Verde oscuro",
+        "ceo": "verde-oscuro",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 24,
+    "fields": {
+        "nombre": "Verde oliva",
+        "ceo": "verde-oliva",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 25,
+    "fields": {
+        "nombre": "Lila",
+        "ceo": "lila",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 26,
+    "fields": {
+        "nombre": "Amarillo pálido",
+        "ceo": "amarillo-pálido",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 27,
+    "fields": {
+        "nombre": "Fucsia",
+        "ceo": "fucsia",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 28,
+    "fields": {
+        "nombre": "Mostaza",
+        "ceo": "mostaza",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 29,
+    "fields": {
+        "nombre": "Ocre",
+        "ceo": "ocre",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 30,
+    "fields": {
+        "nombre": "Trullo",
+        "ceo": "trullo",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 31,
+    "fields": {
+        "nombre": "Malva",
+        "ceo": "malva",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 32,
+    "fields": {
+        "nombre": "Púrpura oscuro",
+        "ceo": "púrpura-oscuro",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 33,
+    "fields": {
+        "nombre": "Verde lima",
+        "ceo": "verde-lima",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 34,
+    "fields": {
+        "nombre": "Verde claro",
+        "ceo": "verde-claro",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 35,
+    "fields": {
+        "nombre": "Ciruela",
+        "ceo": "ciruela",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 36,
+    "fields": {
+        "nombre": "Azul claro",
+        "ceo": "azul-claro",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 37,
+    "fields": {
+        "nombre": "Melocotón",
+        "ceo": "melocotón",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 38,
+    "fields": {
+        "nombre": "Violeta",
+        "ceo": "violeta",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 39,
+    "fields": {
+        "nombre": "Tan",
+        "ceo": "tan",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 40,
+    "fields": {
+        "nombre": "Granate",
+        "ceo": "granate",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 41,
+    "fields": {
+        "nombre": "Café",
+        "ceo": "café",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 42,
+    "fields": {
+        "nombre": "Plata",
+        "ceo": "plata",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 43,
+    "fields": {
+        "nombre": "Gris",
+        "ceo": "gris",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 44,
+    "fields": {
+        "nombre": "Beige",
+        "ceo": "beige",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 45,
+    "fields": {
+        "nombre": "Acero inoxidable",
+        "ceo": "acero-inoxidable",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.color",
+    "pk": 46,
+    "fields": {
+        "nombre": "Cromo",
+        "ceo": "cromo",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.estilo",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ninguno",
+        "ceo": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.estilo",
+    "pk": 2,
+    "fields": {
+        "nombre": "Clásico",
+        "ceo": "clásico",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.acabado",
+    "pk": 1,
+    "fields": {
+        "nombre": "Ninguno",
+        "ceo": "",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.acabado",
+    "pk": 2,
+    "fields": {
+        "nombre": "Brillante",
+        "ceo": "brillante",
+        "fecha_registro": "2024-04-16T09:34:46.402Z"
+    }
+},
+{
+    "model": "api.producto",
+    "pk": 1,
+    "fields": {
+        "nombre": "Sanitario Andrómeda GS dos piezas blanco 4.8 L",
+        "ceo": "sanitario-andrómeda-gs-dos-piezas-blanco-4-8-l",
+        "descripcion": "Realiza tu remodelación con este sanitario de dos piezas de alto brillo",
+        "precio": "376.62",
+        "peso": "0.00",
+        "dimension": "4.8",
+        "dimension2": "",
+        "dimension3": "",
+        "dimension4": "",
+        "dimension5": "",
+        "dimension6": "",
+        "dimension7": "",
+        "dimension8": "",
+        "dimension9": "",
+        "dimension10": "",
+        "sku": "WC0001",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "categoria": 28,
+        "marca": 29,
+        "magnitud": 1,
+        "modelo": 2,
+        "material": 2,
+        "color": 11,
+        "estilo": 2,
+        "acabado": 1
+    }
+},
+{
+    "model": "api.producto",
+    "pk": 2,
+    "fields": {
+        "nombre": "Sanitario Aquapro dos piezas blanco ecoflush",
+        "ceo": "sanitario-aquapro-dos-piezas-blanco-ecoflush",
+        "descripcion": "Sanitario Aquapro Corona, diseñado con una taza alargada, sistema de accionamiento dual tipo push, cuenta con tecnología EcoFlush, color blanco, consumo de agua promedio 3.8 lpf",
+        "precio": "436.36",
+        "peso": "0.00",
+        "dimension": "",
+        "dimension2": "66.6",
+        "dimension3": "Aquapro",
+        "dimension4": "Sí",
+        "dimension5": "",
+        "dimension6": "",
+        "dimension7": "",
+        "dimension8": "",
+        "dimension9": "",
+        "dimension10": "",
+        "sku": "WC0002",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "categoria": 28,
+        "marca": 8,
+        "magnitud": 1,
+        "modelo": 3,
+        "material": 3,
+        "color": 11,
+        "estilo": 1,
+        "acabado": 1
+    }
+},
+{
+    "model": "api.producto",
+    "pk": 3,
+    "fields": {
+        "nombre": "Sanitario Aral one piece blanco",
+        "ceo": "sanitario-aral-one-piece-blanco",
+        "descripcion": "Sanitario de una pieza Ambiance, estilo atemporal y confiado inspirado en el arte deco y los diseños arquitectónicos de renombre con detalles sofisticados que agregan fuerza y frescura",
+        "precio": "1438.40",
+        "peso": "55.70",
+        "dimension": "Dual flush 6.0 lpf-4.2",
+        "dimension2": "",
+        "dimension3": "",
+        "dimension4": "Sí",
+        "dimension5": "12.3 x 17.5",
+        "dimension6": "20-80",
+        "dimension7": "Tecnología sifónica",
+        "dimension8": "",
+        "dimension9": "",
+        "dimension10": "",
+        "sku": "WC0003",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "categoria": 28,
+        "marca": 2,
+        "magnitud": 3,
+        "modelo": 4,
+        "material": 4,
+        "color": 11,
+        "estilo": 1,
+        "acabado": 2
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 1,
+    "fields": {
+        "nombre": "Imagen 1",
+        "ceo": "imagen-1",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712840734/r5rnfnvbahwgjs7uxutb.webp",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 2,
+    "fields": {
+        "nombre": "Imagen 2",
+        "ceo": "imagen-2",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712841778/chsyt0hkbsludfhembmj.webp",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 3,
+    "fields": {
+        "nombre": "Imagen 3",
+        "ceo": "imagen-3",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712841859/zggjkzj5vmq8i337uy4b.webp",
+        "orden": 3,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 4,
+    "fields": {
+        "nombre": "Imagen 1",
+        "ceo": "imagen-1",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712841914/qpvshillrlwig7gfh95n.webp",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 2
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 5,
+    "fields": {
+        "nombre": "Imagen 1",
+        "ceo": "imagen-1",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712841967/g4eik8kr1hbckzhcajwn.webp",
+        "orden": 1,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 6,
+    "fields": {
+        "nombre": "Imagen 2",
+        "ceo": "imagen-2",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712842021/ruk8lowujbykweyspdhl.webp",
+        "orden": 2,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 7,
+    "fields": {
+        "nombre": "Imagen 3",
+        "ceo": "imagen-3",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712842043/aggs6hpk4posm1vcx7q9.webp",
+        "orden": 3,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3
+    }
+},
+{
+    "model": "api.productoimagen",
+    "pk": 8,
+    "fields": {
+        "nombre": "Imagen 4",
+        "ceo": "imagen-4",
+        "imagen": "image/upload/https://res.cloudinary.com/dftssxe9q/image/upload/v1712842065/kfyfk3kkdmgqcngvcgqy.webp",
+        "orden": 4,
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3
+    }
+},
+{
+    "model": "api.persona",
+    "pk": 1,
+    "fields": {
+        "nombre": "Juan",
+        "apellido_paterno": "Pérez",
+        "apellido_materno": "García",
+        "genero": "M",
+        "fecha_nacimiento": "1985-03-10"
+    }
+},
+{
+    "model": "api.persona",
+    "pk": 2,
+    "fields": {
+        "nombre": "María",
+        "apellido_paterno": "Rodríguez",
+        "apellido_materno": "López",
+        "genero": "F",
+        "fecha_nacimiento": "1990-07-20"
+    }
+},
+{
+    "model": "api.persona",
+    "pk": 3,
+    "fields": {
+        "nombre": "Carlos",
+        "apellido_paterno": "Sánchez",
+        "apellido_materno": "Martínez",
+        "genero": "M",
+        "fecha_nacimiento": "1988-11-05"
+    }
+},
+{
+    "model": "api.persona",
+    "pk": 4,
+    "fields": {
+        "nombre": "Laura",
+        "apellido_paterno": "González",
+        "apellido_materno": "Ramírez",
+        "genero": "F",
+        "fecha_nacimiento": "1992-04-15"
+    }
+},
+{
+    "model": "api.persona",
+    "pk": 5,
+    "fields": {
+        "nombre": "Andrés",
+        "apellido_paterno": "Fernández",
+        "apellido_materno": "Torres",
+        "genero": "M",
+        "fecha_nacimiento": "1983-09-25"
+    }
+},
+{
+    "model": "api.persona",
+    "pk": 6,
+    "fields": {
+        "nombre": "Ana",
+        "apellido_paterno": "Morales",
+        "apellido_materno": "Vargas",
+        "genero": "F",
+        "fecha_nacimiento": "1987-12-08"
+    }
+},
+{
+    "model": "api.persona",
+    "pk": 7,
+    "fields": {
+        "nombre": "David",
+        "apellido_paterno": "Jiménez",
+        "apellido_materno": "Herrera",
+        "genero": "M",
+        "fecha_nacimiento": "1995-06-30"
+    }
+},
+{
+    "model": "api.cliente",
+    "pk": 1,
+    "fields": {
+        "telefono": "+1 (555) 123-4567 123",
+        "direccion": "Main St, Los Angeles, CA 90001",
+        "persona": 1,
+        "usuario": 2
+    }
+},
+{
+    "model": "api.cliente",
+    "pk": 2,
+    "fields": {
+        "telefono": "+1 (555) 987-6543 456",
+        "direccion": "Elm St, New York, NY 10002",
+        "persona": 2,
+        "usuario": 3
+    }
+},
+{
+    "model": "api.cliente",
+    "pk": 3,
+    "fields": {
+        "telefono": "+1 (555) 234-5678 789",
+        "direccion": "Oak Ave, Chicago, IL 60603",
+        "persona": 3,
+        "usuario": 4
+    }
+},
+{
+    "model": "api.cliente",
+    "pk": 4,
+    "fields": {
+        "telefono": "+1 (555) 345-6789 101",
+        "direccion": "Maple Rd, Miami, FL 33101",
+        "persona": 4,
+        "usuario": 5
+    }
+},
+{
+    "model": "api.cliente",
+    "pk": 5,
+    "fields": {
+        "telefono": "+1 (555) 876-5432 222",
+        "direccion": "Elm St, Los Angeles, CA 90002",
+        "persona": 5,
+        "usuario": 6
+    }
+},
+{
+    "model": "api.cliente",
+    "pk": 6,
+    "fields": {
+        "telefono": "+1 (555) 765-4321 333",
+        "direccion": "Oak Ave, New York, NY 10003",
+        "persona": 6,
+        "usuario": 7
+    }
+},
+{
+    "model": "api.cliente",
+    "pk": 7,
+    "fields": {
+        "telefono": "+1 (555) 432-1098 444",
+        "direccion": "Maple Rd, Chicago, IL 60604",
+        "persona": 7,
+        "usuario": 8
+    }
+},
+{
+    "model": "api.orden",
+    "pk": 1,
+    "fields": {
+        "codigo": "PED0000001",
+        "estado": "P",
+        "precio_total": "4879.38",
+        "descuento": "0.00",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "cliente": 1
+    }
+},
+{
+    "model": "api.orden",
+    "pk": 2,
+    "fields": {
+        "codigo": "PED0000002",
+        "estado": "C",
+        "precio_total": "3313.16",
+        "descuento": "0.00",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "cliente": 2
+    }
+},
+{
+    "model": "api.orden",
+    "pk": 3,
+    "fields": {
+        "codigo": "PED0000003",
+        "estado": "P",
+        "precio_total": "1438.40",
+        "descuento": "0.00",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "cliente": 3
+    }
+},
+{
+    "model": "api.orden",
+    "pk": 4,
+    "fields": {
+        "codigo": "PED0000004",
+        "estado": "C",
+        "precio_total": "5564.54",
+        "descuento": "0.00",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "cliente": 4
+    }
+},
+{
+    "model": "api.orden",
+    "pk": 5,
+    "fields": {
+        "codigo": "PED0000005",
+        "estado": "P",
+        "precio_total": "1249.34",
+        "descuento": "0.00",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "cliente": 5
+    }
+},
+{
+    "model": "api.orden",
+    "pk": 6,
+    "fields": {
+        "codigo": "PED0000006",
+        "estado": "C",
+        "precio_total": "1506.48",
+        "descuento": "0.00",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "cliente": 6
+    }
+},
+{
+    "model": "api.orden",
+    "pk": 7,
+    "fields": {
+        "codigo": "PED0000007",
+        "estado": "P",
+        "precio_total": "4502.76",
+        "descuento": "0.00",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "cliente": 7
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 1,
+    "fields": {
+        "precio": "376.62",
+        "cantidad": 3,
+        "subtotal": "1129.86",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1,
+        "orden": 1
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 2,
+    "fields": {
+        "precio": "436.36",
+        "cantidad": 2,
+        "subtotal": "872.72",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 2,
+        "orden": 1
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 3,
+    "fields": {
+        "precio": "1438.40",
+        "cantidad": 2,
+        "subtotal": "2876.80",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3,
+        "orden": 1
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 4,
+    "fields": {
+        "precio": "436.36",
+        "cantidad": 1,
+        "subtotal": "436.36",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 2,
+        "orden": 2
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 5,
+    "fields": {
+        "precio": "1438.40",
+        "cantidad": 2,
+        "subtotal": "2876.80",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3,
+        "orden": 2
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 6,
+    "fields": {
+        "precio": "1438.40",
+        "cantidad": 1,
+        "subtotal": "1438.40",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3,
+        "orden": 3
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 7,
+    "fields": {
+        "precio": "376.62",
+        "cantidad": 1,
+        "subtotal": "376.62",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1,
+        "orden": 4
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 8,
+    "fields": {
+        "precio": "436.36",
+        "cantidad": 2,
+        "subtotal": "872.72",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 2,
+        "orden": 4
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 9,
+    "fields": {
+        "precio": "1438.40",
+        "cantidad": 3,
+        "subtotal": "4315.20",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3,
+        "orden": 4
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 10,
+    "fields": {
+        "precio": "376.62",
+        "cantidad": 1,
+        "subtotal": "376.62",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1,
+        "orden": 5
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 11,
+    "fields": {
+        "precio": "436.36",
+        "cantidad": 2,
+        "subtotal": "872.72",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 2,
+        "orden": 5
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 12,
+    "fields": {
+        "precio": "376.62",
+        "cantidad": 4,
+        "subtotal": "1506.48",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1,
+        "orden": 6
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 13,
+    "fields": {
+        "precio": "376.62",
+        "cantidad": 2,
+        "subtotal": "753.24",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 1,
+        "orden": 7
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 14,
+    "fields": {
+        "precio": "436.36",
+        "cantidad": 2,
+        "subtotal": "872.72",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 2,
+        "orden": 7
+    }
+},
+{
+    "model": "api.ordendetalle",
+    "pk": 15,
+    "fields": {
+        "precio": "1438.40",
+        "cantidad": 2,
+        "subtotal": "2876.80",
+        "fecha_registro": "2024-04-16T09:34:46.402Z",
+        "producto": 3,
+        "orden": 7
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$6FYucAXVMQ1Ug9NHoLmiob$RUhRwKnIGKmrBXGFfWI6y2/3LtHmQvHm/BHuOV2GsTw=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admi@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$PdbpwaJYojwZqdU3e6Cexw$h0Xxj77tH6dJXuJCApEZgBUnfb7I+/5sOOVDldMsD/U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "juan.perez",
+        "first_name": "Juan",
+        "last_name": "Pérez García",
+        "email": "juan.perez@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$yNp91G8J4WbmmRgYOAqXZW$nbYF9TYW75/Db2hyySgabnEIFtl96SLObLsdiplbCw8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "maria.rodriguez",
+        "first_name": "María",
+        "last_name": "Rodríguez López",
+        "email": "maria.rodriguez@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$3sFsUfGBJi5c6q4uzhzT54$uYhSIrpa7skk0yXyQkOguTTwG94w9MTlztL67oyGCa4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "carlos.sanchez",
+        "first_name": "Carlos",
+        "last_name": "Sánchez Martínez",
+        "email": "carlos.sanchez@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$4myDgEfVTc8gJjvFK6eV5H$DRnfLaVLtwWTUUrKv1Ry0yKLYxEPt4i/KHEdg+nhHQE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "laura.gonzalez",
+        "first_name": "Laura",
+        "last_name": "González Ramírez",
+        "email": "laura.gonzalez@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$vTlMTv61WtHBgGhD1FRHTG$6v/22AT1y9uKX8Fb2/zCnYeNJutGeOaKjni4pah3Trk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "andres.fernandez",
+        "first_name": "Andrés",
+        "last_name": "Fernández Torres",
+        "email": "andres.fernandez@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$GjXAC98QVFu4UqqPpHZIj4$QrW5oP4r3ttX3A2g/qFpkWbagGQSioSFcLd33Q6N6Vc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ana.morales",
+        "first_name": "Ana",
+        "last_name": "Morales Vargas",
+        "email": "ana.morales@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$RmlqYtfMHLQz51Fne9tvak$cesyYCnbWV9CKuxIx2GvXvnPM713hmY9UYfWXMpV/OU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "david.jimenez",
+        "first_name": "David",
+        "last_name": "Jiménez Herrera",
+        "email": "david.jimenez@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-16T09:34:46.402Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

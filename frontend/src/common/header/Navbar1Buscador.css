@@ -1,0 +1,99 @@
+/* Estilos.css */
+
+.buscador-container {
+    width: 100%; /* O ajusta el ancho según tus necesidades */
+    margin-top: 20px; /* Espacio entre el buscador y section.search */
+}
+  
+  .buscador-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resultados-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Sin margen para estar pegado al buscador */
+  }
+  
+  .resultados-lista li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .resultados-lista li:last-child {
+    border-bottom: none;
+  }
+
+/* Navbar1Buscador.css */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    grid-template-columns: repeat(2, 1fr);
+    /* flex-direction: column; */
+}
+
+.image-column {
+    border: 1px solid #ccc;
+    /* flex: 1; */
+    width: 60px;
+    height: 60px;
+    background-color: #ab1f1f;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.image-column img {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.text-column {
+    border: 1px solid #ccc;
+    /* flex: 2; */
+    background-color: azure;
+    font-size: 12px;
+    /* padding: 20px; */
+    width: 60px;
+    height: 60px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;/* Vertical */
+    justify-content: start;/* Horizontal */
+    overflow: auto;
+}
+.text-column > a{
+  padding: 0 20px;
+  width: 100%;
+      display: flex;
+      align-items: center;/* Vertical */
+      /* flex-direction: column; */
+      justify-content: space-between;
+    /* line-height: 0px; */
+}
+.text-column > a > p.nombre{
+  font-size-adjust: 26px;
+  font-weight: bold;
+}
+.text-column > a > p.categoria{
+  font-size-adjust: 12px;
+  font-weight: normal;
+}
+
+.text-column > a:hover {
+  background-color: #0f3460;
+  color: white;
+}

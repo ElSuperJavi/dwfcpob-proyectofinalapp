@@ -1,0 +1,64 @@
+/* Contenedor principal */
+.usuario-contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+/* Usuario.css */
+.formulario-contenido .enlace {
+  text-align: right;
+}
+.formulario-contenido .enlace a {
+  color: #666;
+}
+
+/* Contenedor principal */
+    /* .formulario {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    } */
+
+/* Pestañas de autenticación */
+.formulario-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e4e4;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilo de las pestañas */
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Campo Obligatorio */
+.obligatorio::after{
+  content: ' *';
+  color: #e94560;
+}

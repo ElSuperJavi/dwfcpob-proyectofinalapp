@@ -1,0 +1,9 @@
+cloudinary
+django==4.2
+django-cors-headers
+djangorestframework
+djangorestframework-simplejwt
+drf-yasg
+pillow
+python-decouple
+psycopg2

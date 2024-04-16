@@ -1,0 +1,243 @@
+/* CatalogoPlomeria.css */
+
+/* Estilos generales */
+.catalogo {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Filtros (en el lado izquierdo) */
+.filtros {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    gap: 10px;
+    background-color: white;
+    user-select: none;
+}
+.filtros > p, .selector-orden-container > p {
+    font-size: 20px;
+}
+
+.selector-orden-container > select {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Estilos para la lista de categorías */
+.filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+.filtro div {
+    cursor: pointer;
+}
+
+.lista-filtro {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 120px; /* Altura máxima para mostrar solo 6 elementos */
+    overflow-y: auto; /* Agregamos una barra de desplazamiento vertical */
+}
+
+.lista-filtro > li > label:hover{
+    color: #ea4636;
+    cursor: pointer;
+}
+
+.lista-filtro > li > label > span {
+    margin-left: 10px;
+}
+
+/* Lista de productos */
+.contenedor-productos {
+    flex: 2;
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+}
+
+/* Estilos para el contenedor de .selector-orden */
+.selector-orden-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alineación hacia la derecha */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.filtro-orden {
+    width: auto;
+    text-align: right; /* Alineación hacia la derecha */
+    /* ... (otros estilos) */
+}
+
+.lista-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+}
+
+/* Tarjeta de producto */
+.producto-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: calc(25% - 20px);
+    height: 330px;
+    overflow: hidden;
+    /* ... (otros estilos) */
+    width: calc(25% - 20px); /* Por defecto, muestra 4 productos por fila */
+    border-radius: 10px;
+
+    /* Media query para pantallas pequeñas (vista sm) */
+    @media screen and (max-width: 576px) {
+        width: calc(100% - 20px); /* Muestra 2 productos por fila */
+    }
+
+    /* Media query para pantallas medianas (vista md) */
+    @media screen and (min-width: 577px) and (max-width: 992px) {
+        width: calc(100% - 20px); /* Muestra 3 productos por fila */
+        /* 33.33 */
+    }
+
+    /* Media query para pantallas grandes (vista lg) */
+    @media screen and (min-width: 993px) and (max-width: 1200px) {
+        width: calc(50% - 20px); /* Mantiene 2 productos por fila */
+    }
+
+    /* Media query para pantallas extra grandes (vista xl) */
+    @media screen and (min-width: 1201px) {
+        width: calc(33.33% - 20px); /* Mantiene 3 productos por fila */
+    }
+}
+.card-superior {
+    height: 120px;
+    overflow: hidden;
+    position: relative; /* Añade posición relativa para posicionar elementos internos */
+
+    /* Alinea los elementos en la parte inferior */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.card-medio {
+    height: 70px;
+    overflow: hidden;
+    position: relative; /* Añade posición relativa para posicionar elementos internos */
+
+    /* Alinea los elementos en la parte inferior */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.card-inferior {
+    height: 80px;
+    overflow: hidden;
+    position: relative; /* Añade posición relativa para posicionar elementos internos */
+
+    /* Alinea los elementos en la parte inferior */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.producto-card:hover {
+    background-color: #e0e0e0;
+}
+
+.producto-card > div > h5:hover a{
+    color: #ea4636;
+}
+
+.producto-card img {
+    max-width: 100%;
+    height: auto;
+    
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Asegura que la imagen ocupe todo el alto del contenedor */
+    object-fit: contain; /* Ajusta la imagen para que quepa dentro del contenedor sin distorsionarla */
+}
+
+.estrellas {
+    font-size: 16px;
+    color: #fdd835;
+}
+
+/* Estilos para el filtro de orden */
+.filtro-orden {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    color: #333;
+    /* background-color: #f5f5f5; */
+    padding: 10px;
+    border-radius: 5px;
+}
+/* 
+.filtro-orden div {
+    cursor: pointer;
+} */
+
+.lista-orden {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-orden > li > label:hover {
+    color: #ea4636;
+    cursor: pointer;
+}
+
+.lista-orden > li > label > span {
+    margin-left: 10px;
+}
+
+
+/* Estilo para el botón de "Añadir al carrito" */
+.boton-carrito {
+    /* ... (otros estilos) */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-carrito:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+    color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+
+.boton-carrito-container {
+    position: relative;
+    bottom: 10%;
+    right: 57%;
+    transform: translate(100%, 100%);
+}

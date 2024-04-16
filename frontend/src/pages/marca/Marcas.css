@@ -1,0 +1,79 @@
+/* Marcas */
+.marcas {
+    text-align: center; color: grey;
+}
+
+.marcas h1 {
+    text-align: center; color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.marcas .alfabeto-lista {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.marcas .marca-lista {
+    list-style: none;
+    padding: 0;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.marcas .letra-titulo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ea4636;
+}
+.marcas .marca-item {
+    font-size: 16px;
+    /* Cambio aquí: Mostrar en forma vertical */
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.marcas > ul.marca-lista > li > ul> li > a.marca-item:hover{
+    color:#ea4636;
+}
+/* Marcas */
+
+/* Alfabeto */
+.marcas .alfabeto-lista {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcas .alfabeto-item {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 0px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px; /* Añadido: Centrar verticalmente */
+    overflow: hidden;
+    background-color: white;
+}
+.marcas .alfabeto-item:hover {
+    background-color: #ea4636;
+}
+.marcas .alfabeto-item:hover > a {
+    color: white;
+}
+.marcas .alfabeto-item a {
+    width: 100%;
+    height: 100%;
+    display: inline-block; /* Cambia a inline-block para ocupar solo el ancho del texto */
+}
+/* Alfabeto */
